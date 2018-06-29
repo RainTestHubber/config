@@ -3,3 +3,12 @@ spring:
     active:
     - dev
 ---
+spring:
+  profiles:
+  application:
+    name:microservicecloud-config-xinyan-dev
+---
+spring:
+  profiles:
+  application:
+  name:microservicecloud-config-xinyan-test
